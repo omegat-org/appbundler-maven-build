@@ -1,4 +1,4 @@
-name: CI and Publish package to the Maven Central Repository
+name: Continuous integration test
 
 on: [push, pull_request]
 
