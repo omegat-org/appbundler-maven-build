@@ -9,7 +9,7 @@
         <relativePath />
     </parent>
 
-    <groupId>com.evolvedbinary.appbundler</groupId>
+    <groupId>org.omegat</groupId>
     <artifactId>appbundler</artifactId>
     <packaging>jar</packaging>
     <version>1.2.1-SNAPSHOT</version>
@@ -18,8 +18,8 @@
     <description>Downloads the AppBundler and builds a Maven Artifact</description>
 
     <organization>
-        <name>Evolved Binary</name>
-        <url>https://www.evolvedbinary.com</url>
+        <name>OmegaT developers</name>
+        <url>https://www.omegat.org</url>
     </organization>
 
     <licenses>
@@ -31,17 +31,15 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/evolvedbinary/appbundler-maven-build.git</connection>
-        <developerConnection>scm:git:https://github.com/evolvedbinary/appbundler-maven-build.git</developerConnection>
-        <url>scm:git:https://github.com/evolvedbinary/appbundler-maven-build.git</url>
+        <connection>scm:git:https://github.com/omegat-org/appbundler-maven-build.git</connection>
+        <developerConnection>scm:git:https://github.com/omegat-org/appbundler-maven-build.git</developerConnection>
+        <url>scm:git:https://github.com/omegat-org/appbundler-maven-build.git</url>
       <tag>HEAD</tag>
   </scm>
 
     <properties>
-        <!-- appbundler.git.repo>https://github.com/TheInfiniteKind/appbundler.git</appbundler.git.repo -->
-        <!-- appbundler.git.branch>master</appbundler.git.branch -->
-        <appbundler.git.repo>https://github.com/evolvedbinary/appbundler.git</appbundler.git.repo>
-        <appbundler.git.branch>main</appbundler.git.branch>
+        <appbundler.git.repo>https://github.com/omegat-org/appbundler.git</appbundler.git.repo>
+        <appbundler.git.branch>master</appbundler.git.branch>
         <checkout.dir>${project.build.directory}/checkout</checkout.dir>
         <checkout.appbundler>${checkout.dir}/appbundler</checkout.appbundler>
         <project.build.source>1.8</project.build.source>
