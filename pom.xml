@@ -12,7 +12,7 @@
     <groupId>org.omegat</groupId>
     <artifactId>appbundler</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.2.1</version>
 
     <name>AppBundler</name>
     <description>Downloads the AppBundler and builds a Maven Artifact</description>
